@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Leulseged Degu</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="skills.html">Skills and Education</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="media.html">Media and Interests</a> |
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+
+            <p>
+                Have a question, a project idea, or an opportunity
+                to collaborate? Use the form below to write me a message.
+            </p>
+
+            <form action="#" method="get">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+                        <label for="fullname">Full Name:</label>
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                            required
+                            minlength="2"
+                            maxlength="60">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number">
+                    </p>
+
+                    <p>
+                        <label for="website">Your Website:</label>
+                        <input
+                            type="url"
+                            id="website"
+                            name="website"
+                            placeholder="https://example.com">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <p>
+                        <label for="reason">Reason for Contact:</label>
+                        <select id="reason" name="reason" required>
+                            <option value="">Select a reason</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="question">General Question</option>
+                            <option value="opportunity">Job Opportunity</option>
+                            <option value="feedback">Website Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>Preferred Contact Method:</p>
+
+                    <input
+                        type="radio"
+                        id="contact-email"
+                        name="contact-method"
+                        value="email"
+                        checked>
+                    <label for="contact-email">Email</label>
+
+                    <input
+                        type="radio"
+                        id="contact-phone"
+                        name="contact-method"
+                        value="phone">
+                    <label for="contact-phone">Phone</label>
+
+                    <p>Topics of Interest:</p>
+
+                    <input
+                        type="checkbox"
+                        id="topic-web"
+                        name="topics"
+                        value="web-development">
+                    <label for="topic-web">Web Development</label>
+
+                    <input
+                        type="checkbox"
+                        id="topic-programming"
+                        name="topics"
+                        value="programming">
+                    <label for="topic-programming">Programming</label>
+
+                    <input
+                        type="checkbox"
+                        id="topic-collaboration"
+                        name="topics"
+                        value="collaboration">
+                    <label for="topic-collaboration">Collaboration</label>
+
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Enter message subject"
+                            required
+                            maxlength="100">
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            cols="40"
+                            placeholder="Write your message here..."
+                            required
+                            minlength="10"
+                            maxlength="1000"></textarea>
+                    </p>
+
+                    <p>
+                        <label for="date">Preferred Contact Date:</label>
+                        <input
+                            type="date"
+                            id="date"
+                            name="contact-date">
+                    </p>
+
+                    <p>
+                        <label for="attachment">Optional Attachment:</label>
+                        <input
+                            type="file"
+                            id="attachment"
+                            name="attachment">
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="agreement"
+                            name="agreement"
+                            value="accepted"
+                            required>
+                        <label for="agreement">
+                            I confirm that the information provided is accurate.
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Other Ways to Connect</h2>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/leulseged-degu"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit my GitHub profile
+                </a>
+            </p>
+
+            <p>
+                You can also return to the
+                <a href="index.html">home page</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Leulseged Degu.</p>
+    </footer>
+
+</body>
+</html>
